@@ -1,11 +1,14 @@
-body.info{
+body{
   background-image: url("../img/25440631_m.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family:cursive;
 }
 
-body.change{
-  background-image: url("../img/tokyo0I9A4446_TP_V.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+div[class^="info"]{
+  font-size:50px;
+}
+div[class^="detail"]{
+  font-size:30px;
 }
